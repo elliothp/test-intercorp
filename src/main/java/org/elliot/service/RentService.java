@@ -28,7 +28,7 @@ public interface RentService {
 
 
 
-    double DSCTO_RENT_VALUE = 0.20;
+    double DSCTO_RENT_VALUE = 0.50;
 
 
 

@@ -60,7 +60,7 @@ public class RentServiceDepTest {
 
     @ParameterizedTest
 
-    @CsvSource({"100,20.00", "90,18.00", "50,10.00", "150,30.00"})
+    @CsvSource({"100,50.00", "90,45.00", "50,25.00", "150,75.00"})
 
     public void testCalculateRentFromAmount(String amountBase, String rentExpected) {
 
